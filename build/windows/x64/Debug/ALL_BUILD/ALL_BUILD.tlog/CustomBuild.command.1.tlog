@@ -1,0 +1,10 @@
+^D:\FILES\TODO-1\WINDOWS\CMAKELISTS.TXT
+setlocal
+"D:\Program File\Vs2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/Files/Todo-1/windows -BD:/Files/Todo-1/build/windows --check-stamp-file D:/Files/Todo-1/build/windows/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

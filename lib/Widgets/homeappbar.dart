@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:todo_app/Constants.dart';
+// ignore: unused_import
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 AppBar HomeAppBar() {
   return AppBar(
@@ -26,7 +28,7 @@ AppBar HomeAppBar() {
             GestureDetector(
               onTap: () {},
               child: const Icon(
-                Icons.search,
+                FontAwesomeIcons.bell,
                 color: Colors.white,
               ),
             ),
