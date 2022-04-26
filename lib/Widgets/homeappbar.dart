@@ -8,7 +8,7 @@ AppBar HomeAppBar() {
     backgroundColor: kBackGroundColor,
     elevation: 0,
     leading: const Icon(
-      Icons.menu,
+      FontAwesomeIcons.barsStaggered,
       color: Colors.white,
     ),
     actions: [
@@ -18,7 +18,7 @@ AppBar HomeAppBar() {
           children: [
             GestureDetector(
               child: const Icon(
-                Icons.search,
+                FontAwesomeIcons.magnifyingGlass,
                 color: Colors.white,
               ),
             ),
