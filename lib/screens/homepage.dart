@@ -4,6 +4,8 @@ import 'package:todo_app/Widgets/homefloatingactionbutton.dart';
 import 'package:todo_app/Widgets/homepagebody.dart';
 import 'package:todo_app/screens/addtodo.dart';
 
+import '../Widgets/navigationdrawer.dart';
+
 class HomePage extends StatefulWidget {
   HomePage({Key? key}) : super(key: key);
 
@@ -12,10 +14,13 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
+  final GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey<ScaffoldState>();
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: HomeAppBar(),
+      key: _scaffoldKey,
+      appBar: HomeAppBar(_scaffoldKey),
+      drawer: const NavigationDrawer(),
       body: HomePageBody(),
       floatingActionButton: HomeFloatingActionButton(() {
         Navigator.push(
