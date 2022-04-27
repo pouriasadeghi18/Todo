@@ -17,48 +17,53 @@ class _HomePageBodyState extends State<HomePageBody> {
   @override
   Widget build(BuildContext context) {
     print(MediaQuery.of(context).size.height * 0.75);
-    return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 15.0),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          const Text(
-            "Whats up! Olivia",
-            style: TextStyle(fontSize: 30),
-          ),
-          const SizedBox(
-            height: 10,
-          ),
-          const Text(
-            "Todays'Task",
-            style: TextStyle(
-                fontSize: 16, color: Color.fromARGB(255, 189, 186, 186)),
-          ),
-          const SizedBox(
-            height: 10,
-          ),
-          Container(
-            height: MediaQuery.of(context).size.height * 0.75,
-            child: SingleChildScrollView(
-              child: Column(
-                children: [
-                  FutureBuilder(
-                      future: Hive.openBox('todo'),
-                      builder: (context, snapshot) {
-                        if (snapshot.hasData &&
-                            snapshot.connectionState == ConnectionState.done) {
-                          return todolist();
-                        } else {
-                          return const Center(
-                            child: CircularProgressIndicator(),
-                          );
-                        }
-                      }),
-                ],
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 15.0),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              const Text(
+                "Whats up! Olivia",
+                style: TextStyle(fontSize: 30),
               ),
-            ),
+              const SizedBox(
+                height: 10,
+              ),
+              const Text(
+                "Todays'Task",
+                style: TextStyle(
+                    fontSize: 16, color: Color.fromARGB(255, 189, 186, 186)),
+              ),
+              const SizedBox(
+                height: 10,
+              ),
+              Container(
+                height: MediaQuery.of(context).size.height * 0.75,
+                child: SingleChildScrollView(
+                  child: Column(
+                    children: [
+                      FutureBuilder(
+                          future: Hive.openBox('todo'),
+                          builder: (context, snapshot) {
+                            if (snapshot.hasData &&
+                                snapshot.connectionState ==
+                                    ConnectionState.done) {
+                              return todolist();
+                            } else {
+                              return const Center(
+                                child: CircularProgressIndicator(),
+                              );
+                            }
+                          }),
+                    ],
+                  ),
+                ),
+              ),
+            ],
           ),
-        ],
+        ),
       ),
     );
   }
