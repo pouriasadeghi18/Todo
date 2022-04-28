@@ -10,27 +10,25 @@ AppBar HomeAppBar(GlobalKey<ScaffoldState> _scaffoldKey) {
     leading: IconButton(
       onPressed: () => _scaffoldKey.currentState?.openDrawer(),
       icon: const Icon(FontAwesomeIcons.barsStaggered),
+      color: KGrayIconButton,
     ),
     actions: [
       Padding(
         padding: const EdgeInsets.symmetric(horizontal: 8.0),
         child: Row(
           children: [
-            GestureDetector(
-              child: const Icon(
-                FontAwesomeIcons.magnifyingGlass,
-                color: Colors.white,
-              ),
+            IconButton(
+              onPressed: () {},
+              icon: const Icon(FontAwesomeIcons.magnifyingGlass),
+              color: KGrayIconButton,
             ),
             const SizedBox(
               width: 20,
             ),
-            GestureDetector(
-              onTap: () {},
-              child: const Icon(
-                FontAwesomeIcons.bell,
-                color: Colors.white,
-              ),
+            IconButton(
+              onPressed: () {},
+              icon: const Icon(FontAwesomeIcons.bell),
+              color: KGrayIconButton,
             ),
           ],
         ),

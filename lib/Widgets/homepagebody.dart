@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:todo_app/Constants.dart';
+import 'package:todo_app/Widgets/Category.dart';
 
 import '../Models/todo_model.dart';
 import '../screens/addtodo.dart';
@@ -25,21 +26,38 @@ class _HomePageBodyState extends State<HomePageBody> {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               const Text(
-                "Whats up! Olivia",
-                style: TextStyle(fontSize: 30),
+                "Whats up! Porya",
+                style: TextStyle(fontSize: 30, color: KTextTitleColor),
               ),
               const SizedBox(
                 height: 10,
               ),
               const Text(
-                "Todays'Task",
-                style: TextStyle(
-                    fontSize: 16, color: Color.fromARGB(255, 189, 186, 186)),
+                "Categories",
+                style: TextStyle(fontSize: 16, color: ktitleColor),
               ),
               const SizedBox(
                 height: 10,
               ),
-              Container(
+              SizedBox(
+                height: 200,
+                width: MediaQuery.of(context).size.width,
+                child: SingleChildScrollView(
+                  physics: const NeverScrollableScrollPhysics(),
+                  scrollDirection: Axis.horizontal,
+                ),
+              ),
+              const SizedBox(
+                height: 20,
+              ),
+              const Text(
+                "Todays'Task",
+                style: TextStyle(fontSize: 16, color: ktitleColor),
+              ),
+              const SizedBox(
+                height: 10,
+              ),
+              SizedBox(
                 height: MediaQuery.of(context).size.height * 0.75,
                 child: SingleChildScrollView(
                   child: Column(
