@@ -11,7 +11,7 @@ import '../Widgets/navigationdrawer.dart';
 class HomePage extends StatefulWidget {
   HomePage({Key? key}) : super(key: key);
 
-  bool isFabVisible = false;
+  bool isFabVisible = true;
 
   @override
   State<HomePage> createState() => _HomePageState();
