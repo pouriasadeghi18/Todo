@@ -11,7 +11,7 @@ import '../Widgets/navigationdrawer.dart';
 class HomePage extends StatefulWidget {
   HomePage({Key? key}) : super(key: key);
 
-  bool isFabVisible = true;
+  bool isFabVisible = false;
 
   @override
   State<HomePage> createState() => _HomePageState();
@@ -38,9 +38,5 @@ class _HomePageState extends State<HomePage> {
                             )));
               })
             : null);
-  }
-
-  void TurnOnVisible() {
-    widget.isFabVisible = true;
   }
 }
