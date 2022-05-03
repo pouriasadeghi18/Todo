@@ -2,7 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:todo_app/Constants.dart';
+
 import 'package:todo_app/Widgets/Category.dart';
+import 'package:todo_app/screens/homepage.dart';
 
 import '../Models/todo_model.dart';
 import '../screens/addtodo.dart';
@@ -20,6 +22,7 @@ class _HomePageBodyState extends State<HomePageBody> {
     print(MediaQuery.of(context).size.height * 0.75);
     return Scaffold(
       body: SingleChildScrollView(
+        physics: const NeverScrollableScrollPhysics(),
         child: Padding(
           padding: const EdgeInsets.symmetric(horizontal: 15.0),
           child: Column(
@@ -40,15 +43,35 @@ class _HomePageBodyState extends State<HomePageBody> {
                 height: 10,
               ),
               SizedBox(
-                height: 200,
+                height: 150,
                 width: MediaQuery.of(context).size.width,
                 child: SingleChildScrollView(
-                  physics: const NeverScrollableScrollPhysics(),
                   scrollDirection: Axis.horizontal,
+                  child: NotificationListener<UserScrollNotification>(
+                    onNotification: (notification) {
+                      if (notification.direction == ScrollDirection.forward) {
+                        setState(() {
+                          print(notification.toString());
+                        });
+                      } else if (notification.direction ==
+                          ScrollDirection.reverse) {
+                        setState(() {
+                          
+                        });
+                      }
+                      return true;
+                    },
+                    child: Row(children: [
+                      Category("Business", 40, 0.9),
+                      Category("Work", 20, 0.5),
+                      Category("Sport", 5, 0.4),
+                      Category("Book", 2, 10),
+                    ]),
+                  ),
                 ),
               ),
               const SizedBox(
-                height: 20,
+                height: 5,
               ),
               const Text(
                 "Todays'Task",
@@ -58,7 +81,7 @@ class _HomePageBodyState extends State<HomePageBody> {
                 height: 10,
               ),
               SizedBox(
-                height: MediaQuery.of(context).size.height * 0.75,
+                height: MediaQuery.of(context).size.height * 0.50,
                 child: SingleChildScrollView(
                   child: Column(
                     children: [

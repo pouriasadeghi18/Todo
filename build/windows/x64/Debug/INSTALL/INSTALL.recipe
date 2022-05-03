@@ -2,19 +2,19 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>D:\Files\Todo-1\build\windows\x64\Debug\ZERO_CHECK</FullPath>
+      <FullPath>C:\Users\Porya\Desktop\Todo\build\windows\x64\Debug\ZERO_CHECK</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>D:\Files\Todo-1\build\windows\flutter\x64\Debug\flutter_assemble</FullPath>
+      <FullPath>C:\Users\Porya\Desktop\Todo\build\windows\flutter\x64\Debug\flutter_assemble</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>D:\Files\Todo-1\build\windows\runner\Debug\todo_app.exe</FullPath>
+      <FullPath>C:\Users\Porya\Desktop\Todo\build\windows\runner\Debug\todo_app.exe</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>D:\Files\Todo-1\build\windows\x64\Debug\ALL_BUILD</FullPath>
+      <FullPath>C:\Users\Porya\Desktop\Todo\build\windows\x64\Debug\ALL_BUILD</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>D:\Files\Todo-1\build\windows\x64\Debug\INSTALL</FullPath>
+      <FullPath>C:\Users\Porya\Desktop\Todo\build\windows\x64\Debug\INSTALL</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

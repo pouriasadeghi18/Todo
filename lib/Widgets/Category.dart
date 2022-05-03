@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:todo_app/Constants.dart';
 
-Widget Category() {
+Widget Category(String CategoryName, int howmanytasks, double progress) {
   return Container(
+    padding: EdgeInsets.all(10),
     margin: new EdgeInsets.symmetric(horizontal: 10.0),
     width: 220,
-    height: 118,
+    height: 120,
     decoration: BoxDecoration(
         color: Colors.white,
         borderRadius: BorderRadius.all(Radius.circular(10.0)),
@@ -18,11 +19,45 @@ Widget Category() {
           )
         ]),
     child: Column(
+      mainAxisAlignment: MainAxisAlignment.start,
       children: [
-        Text(
-          "Categories",
-          style: TextStyle(fontSize: 16, color: ktitleColor),
+        const SizedBox(
+          height: 20,
         ),
+        Align(
+          alignment: Alignment.centerLeft,
+          child: Text(
+            "${howmanytasks.toString()} Task",
+            textAlign: TextAlign.left,
+            style: const TextStyle(
+              fontSize: 16,
+              color: ktitleColor,
+            ),
+          ),
+        ),
+        const SizedBox(
+          height: 10,
+        ),
+        Align(
+          alignment: Alignment.centerLeft,
+          child: Text(
+            CategoryName,
+            textAlign: TextAlign.left,
+            style: const TextStyle(
+              fontSize: 24,
+              color: Colors.black,
+            ),
+          ),
+        ),
+        const SizedBox(
+          height: 10,
+        ),
+        Center(
+          child: LinearProgressIndicator(
+            value: progress,
+            valueColor: const AlwaysStoppedAnimation<Color>(Colors.blue),
+          ),
+        )
       ],
     ),
   );

@@ -18,7 +18,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{7582435B-DEAC-314C-AF41-DD029984C794}</ProjectGuid>
+    <ProjectGuid>{416B9E4F-42C5-3706-9572-BE2B64D81A05}</ProjectGuid>
     <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
@@ -85,10 +85,10 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\Files\Todo-1\build\windows\CMakeFiles\f1f9ccf7f2ddb7d4f3c218da2d005a15\flutter_windows.dll.rule">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating D:/Files/Todo-1/windows/flutter/ephemeral/flutter_windows.dll, D:/Files/Todo-1/windows/flutter/ephemeral/flutter_export.h, D:/Files/Todo-1/windows/flutter/ephemeral/flutter_windows.h, D:/Files/Todo-1/windows/flutter/ephemeral/flutter_messenger.h, D:/Files/Todo-1/windows/flutter/ephemeral/flutter_plugin_registrar.h, D:/Files/Todo-1/windows/flutter/ephemeral/flutter_texture_registrar.h, D:/Files/Todo-1/windows/flutter/ephemeral/cpp_client_wrapper/core_implementations.cc, D:/Files/Todo-1/windows/flutter/ephemeral/cpp_client_wrapper/standard_codec.cc, D:/Files/Todo-1/windows/flutter/ephemeral/cpp_client_wrapper/plugin_registrar.cc, D:/Files/Todo-1/windows/flutter/ephemeral/cpp_client_wrapper/flutter_engine.cc, D:/Files/Todo-1/windows/flutter/ephemeral/cpp_client_wrapper/flutter_view_controller.cc, _phony_</Message>
+    <CustomBuild Include="C:\Users\Porya\Desktop\Todo\build\windows\CMakeFiles\b7846e3914485a7e143c99f850cd9ac7\flutter_windows.dll.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating C:/Users/Porya/Desktop/Todo/windows/flutter/ephemeral/flutter_windows.dll, C:/Users/Porya/Desktop/Todo/windows/flutter/ephemeral/flutter_export.h, C:/Users/Porya/Desktop/Todo/windows/flutter/ephemeral/flutter_windows.h, C:/Users/Porya/Desktop/Todo/windows/flutter/ephemeral/flutter_messenger.h, C:/Users/Porya/Desktop/Todo/windows/flutter/ephemeral/flutter_plugin_registrar.h, C:/Users/Porya/Desktop/Todo/windows/flutter/ephemeral/flutter_texture_registrar.h, C:/Users/Porya/Desktop/Todo/windows/flutter/ephemeral/cpp_client_wrapper/core_implementations.cc, C:/Users/Porya/Desktop/Todo/windows/flutter/ephemeral/cpp_client_wrapper/standard_codec.cc, C:/Users/Porya/Desktop/Todo/windows/flutter/ephemeral/cpp_client_wrapper/plugin_registrar.cc, C:/Users/Porya/Desktop/Todo/windows/flutter/ephemeral/cpp_client_wrapper/flutter_engine.cc, C:/Users/Porya/Desktop/Todo/windows/flutter/ephemeral/cpp_client_wrapper/flutter_view_controller.cc, _phony_</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"D:\Program File\Vs2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=D:\flutter PROJECT_DIR=D:\Files\Todo-1 FLUTTER_ROOT=D:\flutter FLUTTER_EPHEMERAL_DIR=D:\Files\Todo-1\windows\flutter\ephemeral PROJECT_DIR=D:\Files\Todo-1 FLUTTER_TARGET=D:\Files\Todo-1\lib\main.dart DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=D:\Files\Todo-1\.dart_tool\package_config.json D:/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+"D:\Program File\Vs2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=D:\flutter PROJECT_DIR=C:\Users\Porya\Desktop\Todo FLUTTER_ROOT=D:\flutter FLUTTER_EPHEMERAL_DIR=C:\Users\Porya\Desktop\Todo\windows\flutter\ephemeral PROJECT_DIR=C:\Users\Porya\Desktop\Todo FLUTTER_TARGET=C:\Users\Porya\Desktop\Todo\lib\main.dart DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=C:\Users\Porya\Desktop\Todo\.dart_tool\package_config.json D:/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -97,12 +97,12 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Files\Todo-1\windows\flutter\ephemeral\flutter_windows.dll;D:\Files\Todo-1\windows\flutter\ephemeral\flutter_export.h;D:\Files\Todo-1\windows\flutter\ephemeral\flutter_windows.h;D:\Files\Todo-1\windows\flutter\ephemeral\flutter_messenger.h;D:\Files\Todo-1\windows\flutter\ephemeral\flutter_plugin_registrar.h;D:\Files\Todo-1\windows\flutter\ephemeral\flutter_texture_registrar.h;D:\Files\Todo-1\windows\flutter\ephemeral\cpp_client_wrapper\core_implementations.cc;D:\Files\Todo-1\windows\flutter\ephemeral\cpp_client_wrapper\standard_codec.cc;D:\Files\Todo-1\windows\flutter\ephemeral\cpp_client_wrapper\plugin_registrar.cc;D:\Files\Todo-1\windows\flutter\ephemeral\cpp_client_wrapper\flutter_engine.cc;D:\Files\Todo-1\windows\flutter\ephemeral\cpp_client_wrapper\flutter_view_controller.cc;D:\Files\Todo-1\build\windows\flutter\_phony_</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Porya\Desktop\Todo\windows\flutter\ephemeral\flutter_windows.dll;C:\Users\Porya\Desktop\Todo\windows\flutter\ephemeral\flutter_export.h;C:\Users\Porya\Desktop\Todo\windows\flutter\ephemeral\flutter_windows.h;C:\Users\Porya\Desktop\Todo\windows\flutter\ephemeral\flutter_messenger.h;C:\Users\Porya\Desktop\Todo\windows\flutter\ephemeral\flutter_plugin_registrar.h;C:\Users\Porya\Desktop\Todo\windows\flutter\ephemeral\flutter_texture_registrar.h;C:\Users\Porya\Desktop\Todo\windows\flutter\ephemeral\cpp_client_wrapper\core_implementations.cc;C:\Users\Porya\Desktop\Todo\windows\flutter\ephemeral\cpp_client_wrapper\standard_codec.cc;C:\Users\Porya\Desktop\Todo\windows\flutter\ephemeral\cpp_client_wrapper\plugin_registrar.cc;C:\Users\Porya\Desktop\Todo\windows\flutter\ephemeral\cpp_client_wrapper\flutter_engine.cc;C:\Users\Porya\Desktop\Todo\windows\flutter\ephemeral\cpp_client_wrapper\flutter_view_controller.cc;C:\Users\Porya\Desktop\Todo\build\windows\flutter\_phony_</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">Generating D:/Files/Todo-1/windows/flutter/ephemeral/flutter_windows.dll, D:/Files/Todo-1/windows/flutter/ephemeral/flutter_export.h, D:/Files/Todo-1/windows/flutter/ephemeral/flutter_windows.h, D:/Files/Todo-1/windows/flutter/ephemeral/flutter_messenger.h, D:/Files/Todo-1/windows/flutter/ephemeral/flutter_plugin_registrar.h, D:/Files/Todo-1/windows/flutter/ephemeral/flutter_texture_registrar.h, D:/Files/Todo-1/windows/flutter/ephemeral/cpp_client_wrapper/core_implementations.cc, D:/Files/Todo-1/windows/flutter/ephemeral/cpp_client_wrapper/standard_codec.cc, D:/Files/Todo-1/windows/flutter/ephemeral/cpp_client_wrapper/plugin_registrar.cc, D:/Files/Todo-1/windows/flutter/ephemeral/cpp_client_wrapper/flutter_engine.cc, D:/Files/Todo-1/windows/flutter/ephemeral/cpp_client_wrapper/flutter_view_controller.cc, _phony_</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">Generating C:/Users/Porya/Desktop/Todo/windows/flutter/ephemeral/flutter_windows.dll, C:/Users/Porya/Desktop/Todo/windows/flutter/ephemeral/flutter_export.h, C:/Users/Porya/Desktop/Todo/windows/flutter/ephemeral/flutter_windows.h, C:/Users/Porya/Desktop/Todo/windows/flutter/ephemeral/flutter_messenger.h, C:/Users/Porya/Desktop/Todo/windows/flutter/ephemeral/flutter_plugin_registrar.h, C:/Users/Porya/Desktop/Todo/windows/flutter/ephemeral/flutter_texture_registrar.h, C:/Users/Porya/Desktop/Todo/windows/flutter/ephemeral/cpp_client_wrapper/core_implementations.cc, C:/Users/Porya/Desktop/Todo/windows/flutter/ephemeral/cpp_client_wrapper/standard_codec.cc, C:/Users/Porya/Desktop/Todo/windows/flutter/ephemeral/cpp_client_wrapper/plugin_registrar.cc, C:/Users/Porya/Desktop/Todo/windows/flutter/ephemeral/cpp_client_wrapper/flutter_engine.cc, C:/Users/Porya/Desktop/Todo/windows/flutter/ephemeral/cpp_client_wrapper/flutter_view_controller.cc, _phony_</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">setlocal
-"D:\Program File\Vs2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=D:\flutter PROJECT_DIR=D:\Files\Todo-1 FLUTTER_ROOT=D:\flutter FLUTTER_EPHEMERAL_DIR=D:\Files\Todo-1\windows\flutter\ephemeral PROJECT_DIR=D:\Files\Todo-1 FLUTTER_TARGET=D:\Files\Todo-1\lib\main.dart DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=D:\Files\Todo-1\.dart_tool\package_config.json D:/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Profile
+"D:\Program File\Vs2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=D:\flutter PROJECT_DIR=C:\Users\Porya\Desktop\Todo FLUTTER_ROOT=D:\flutter FLUTTER_EPHEMERAL_DIR=C:\Users\Porya\Desktop\Todo\windows\flutter\ephemeral PROJECT_DIR=C:\Users\Porya\Desktop\Todo FLUTTER_TARGET=C:\Users\Porya\Desktop\Todo\lib\main.dart DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=C:\Users\Porya\Desktop\Todo\.dart_tool\package_config.json D:/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Profile
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -111,12 +111,12 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">D:\Files\Todo-1\windows\flutter\ephemeral\flutter_windows.dll;D:\Files\Todo-1\windows\flutter\ephemeral\flutter_export.h;D:\Files\Todo-1\windows\flutter\ephemeral\flutter_windows.h;D:\Files\Todo-1\windows\flutter\ephemeral\flutter_messenger.h;D:\Files\Todo-1\windows\flutter\ephemeral\flutter_plugin_registrar.h;D:\Files\Todo-1\windows\flutter\ephemeral\flutter_texture_registrar.h;D:\Files\Todo-1\windows\flutter\ephemeral\cpp_client_wrapper\core_implementations.cc;D:\Files\Todo-1\windows\flutter\ephemeral\cpp_client_wrapper\standard_codec.cc;D:\Files\Todo-1\windows\flutter\ephemeral\cpp_client_wrapper\plugin_registrar.cc;D:\Files\Todo-1\windows\flutter\ephemeral\cpp_client_wrapper\flutter_engine.cc;D:\Files\Todo-1\windows\flutter\ephemeral\cpp_client_wrapper\flutter_view_controller.cc;D:\Files\Todo-1\build\windows\flutter\_phony_</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">C:\Users\Porya\Desktop\Todo\windows\flutter\ephemeral\flutter_windows.dll;C:\Users\Porya\Desktop\Todo\windows\flutter\ephemeral\flutter_export.h;C:\Users\Porya\Desktop\Todo\windows\flutter\ephemeral\flutter_windows.h;C:\Users\Porya\Desktop\Todo\windows\flutter\ephemeral\flutter_messenger.h;C:\Users\Porya\Desktop\Todo\windows\flutter\ephemeral\flutter_plugin_registrar.h;C:\Users\Porya\Desktop\Todo\windows\flutter\ephemeral\flutter_texture_registrar.h;C:\Users\Porya\Desktop\Todo\windows\flutter\ephemeral\cpp_client_wrapper\core_implementations.cc;C:\Users\Porya\Desktop\Todo\windows\flutter\ephemeral\cpp_client_wrapper\standard_codec.cc;C:\Users\Porya\Desktop\Todo\windows\flutter\ephemeral\cpp_client_wrapper\plugin_registrar.cc;C:\Users\Porya\Desktop\Todo\windows\flutter\ephemeral\cpp_client_wrapper\flutter_engine.cc;C:\Users\Porya\Desktop\Todo\windows\flutter\ephemeral\cpp_client_wrapper\flutter_view_controller.cc;C:\Users\Porya\Desktop\Todo\build\windows\flutter\_phony_</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">false</VerifyInputsAndOutputsExist>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating D:/Files/Todo-1/windows/flutter/ephemeral/flutter_windows.dll, D:/Files/Todo-1/windows/flutter/ephemeral/flutter_export.h, D:/Files/Todo-1/windows/flutter/ephemeral/flutter_windows.h, D:/Files/Todo-1/windows/flutter/ephemeral/flutter_messenger.h, D:/Files/Todo-1/windows/flutter/ephemeral/flutter_plugin_registrar.h, D:/Files/Todo-1/windows/flutter/ephemeral/flutter_texture_registrar.h, D:/Files/Todo-1/windows/flutter/ephemeral/cpp_client_wrapper/core_implementations.cc, D:/Files/Todo-1/windows/flutter/ephemeral/cpp_client_wrapper/standard_codec.cc, D:/Files/Todo-1/windows/flutter/ephemeral/cpp_client_wrapper/plugin_registrar.cc, D:/Files/Todo-1/windows/flutter/ephemeral/cpp_client_wrapper/flutter_engine.cc, D:/Files/Todo-1/windows/flutter/ephemeral/cpp_client_wrapper/flutter_view_controller.cc, _phony_</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating C:/Users/Porya/Desktop/Todo/windows/flutter/ephemeral/flutter_windows.dll, C:/Users/Porya/Desktop/Todo/windows/flutter/ephemeral/flutter_export.h, C:/Users/Porya/Desktop/Todo/windows/flutter/ephemeral/flutter_windows.h, C:/Users/Porya/Desktop/Todo/windows/flutter/ephemeral/flutter_messenger.h, C:/Users/Porya/Desktop/Todo/windows/flutter/ephemeral/flutter_plugin_registrar.h, C:/Users/Porya/Desktop/Todo/windows/flutter/ephemeral/flutter_texture_registrar.h, C:/Users/Porya/Desktop/Todo/windows/flutter/ephemeral/cpp_client_wrapper/core_implementations.cc, C:/Users/Porya/Desktop/Todo/windows/flutter/ephemeral/cpp_client_wrapper/standard_codec.cc, C:/Users/Porya/Desktop/Todo/windows/flutter/ephemeral/cpp_client_wrapper/plugin_registrar.cc, C:/Users/Porya/Desktop/Todo/windows/flutter/ephemeral/cpp_client_wrapper/flutter_engine.cc, C:/Users/Porya/Desktop/Todo/windows/flutter/ephemeral/cpp_client_wrapper/flutter_view_controller.cc, _phony_</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"D:\Program File\Vs2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=D:\flutter PROJECT_DIR=D:\Files\Todo-1 FLUTTER_ROOT=D:\flutter FLUTTER_EPHEMERAL_DIR=D:\Files\Todo-1\windows\flutter\ephemeral PROJECT_DIR=D:\Files\Todo-1 FLUTTER_TARGET=D:\Files\Todo-1\lib\main.dart DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=D:\Files\Todo-1\.dart_tool\package_config.json D:/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Release
+"D:\Program File\Vs2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=D:\flutter PROJECT_DIR=C:\Users\Porya\Desktop\Todo FLUTTER_ROOT=D:\flutter FLUTTER_EPHEMERAL_DIR=C:\Users\Porya\Desktop\Todo\windows\flutter\ephemeral PROJECT_DIR=C:\Users\Porya\Desktop\Todo FLUTTER_TARGET=C:\Users\Porya\Desktop\Todo\lib\main.dart DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=C:\Users\Porya\Desktop\Todo\.dart_tool\package_config.json D:/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Release
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -125,13 +125,13 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Files\Todo-1\windows\flutter\ephemeral\flutter_windows.dll;D:\Files\Todo-1\windows\flutter\ephemeral\flutter_export.h;D:\Files\Todo-1\windows\flutter\ephemeral\flutter_windows.h;D:\Files\Todo-1\windows\flutter\ephemeral\flutter_messenger.h;D:\Files\Todo-1\windows\flutter\ephemeral\flutter_plugin_registrar.h;D:\Files\Todo-1\windows\flutter\ephemeral\flutter_texture_registrar.h;D:\Files\Todo-1\windows\flutter\ephemeral\cpp_client_wrapper\core_implementations.cc;D:\Files\Todo-1\windows\flutter\ephemeral\cpp_client_wrapper\standard_codec.cc;D:\Files\Todo-1\windows\flutter\ephemeral\cpp_client_wrapper\plugin_registrar.cc;D:\Files\Todo-1\windows\flutter\ephemeral\cpp_client_wrapper\flutter_engine.cc;D:\Files\Todo-1\windows\flutter\ephemeral\cpp_client_wrapper\flutter_view_controller.cc;D:\Files\Todo-1\build\windows\flutter\_phony_</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Porya\Desktop\Todo\windows\flutter\ephemeral\flutter_windows.dll;C:\Users\Porya\Desktop\Todo\windows\flutter\ephemeral\flutter_export.h;C:\Users\Porya\Desktop\Todo\windows\flutter\ephemeral\flutter_windows.h;C:\Users\Porya\Desktop\Todo\windows\flutter\ephemeral\flutter_messenger.h;C:\Users\Porya\Desktop\Todo\windows\flutter\ephemeral\flutter_plugin_registrar.h;C:\Users\Porya\Desktop\Todo\windows\flutter\ephemeral\flutter_texture_registrar.h;C:\Users\Porya\Desktop\Todo\windows\flutter\ephemeral\cpp_client_wrapper\core_implementations.cc;C:\Users\Porya\Desktop\Todo\windows\flutter\ephemeral\cpp_client_wrapper\standard_codec.cc;C:\Users\Porya\Desktop\Todo\windows\flutter\ephemeral\cpp_client_wrapper\plugin_registrar.cc;C:\Users\Porya\Desktop\Todo\windows\flutter\ephemeral\cpp_client_wrapper\flutter_engine.cc;C:\Users\Porya\Desktop\Todo\windows\flutter\ephemeral\cpp_client_wrapper\flutter_view_controller.cc;C:\Users\Porya\Desktop\Todo\build\windows\flutter\_phony_</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\Files\Todo-1\build\windows\CMakeFiles\89285b82eeabb941c70e20c541203f68\flutter_assemble.rule">
+    <CustomBuild Include="C:\Users\Porya\Desktop\Todo\build\windows\CMakeFiles\ec10f28645399151bfe91343f168cd28\flutter_assemble.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
 :cmEnd
@@ -140,8 +140,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Files\Todo-1\windows\flutter\ephemeral\flutter_windows.dll;D:\Files\Todo-1\windows\flutter\ephemeral\flutter_export.h;D:\Files\Todo-1\windows\flutter\ephemeral\flutter_windows.h;D:\Files\Todo-1\windows\flutter\ephemeral\flutter_messenger.h;D:\Files\Todo-1\windows\flutter\ephemeral\flutter_plugin_registrar.h;D:\Files\Todo-1\windows\flutter\ephemeral\flutter_texture_registrar.h;D:\Files\Todo-1\windows\flutter\ephemeral\cpp_client_wrapper\core_implementations.cc;D:\Files\Todo-1\windows\flutter\ephemeral\cpp_client_wrapper\standard_codec.cc;D:\Files\Todo-1\windows\flutter\ephemeral\cpp_client_wrapper\plugin_registrar.cc;D:\Files\Todo-1\windows\flutter\ephemeral\cpp_client_wrapper\flutter_engine.cc;D:\Files\Todo-1\windows\flutter\ephemeral\cpp_client_wrapper\flutter_view_controller.cc;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Files\Todo-1\build\windows\flutter\CMakeFiles\flutter_assemble</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Porya\Desktop\Todo\windows\flutter\ephemeral\flutter_windows.dll;C:\Users\Porya\Desktop\Todo\windows\flutter\ephemeral\flutter_export.h;C:\Users\Porya\Desktop\Todo\windows\flutter\ephemeral\flutter_windows.h;C:\Users\Porya\Desktop\Todo\windows\flutter\ephemeral\flutter_messenger.h;C:\Users\Porya\Desktop\Todo\windows\flutter\ephemeral\flutter_plugin_registrar.h;C:\Users\Porya\Desktop\Todo\windows\flutter\ephemeral\flutter_texture_registrar.h;C:\Users\Porya\Desktop\Todo\windows\flutter\ephemeral\cpp_client_wrapper\core_implementations.cc;C:\Users\Porya\Desktop\Todo\windows\flutter\ephemeral\cpp_client_wrapper\standard_codec.cc;C:\Users\Porya\Desktop\Todo\windows\flutter\ephemeral\cpp_client_wrapper\plugin_registrar.cc;C:\Users\Porya\Desktop\Todo\windows\flutter\ephemeral\cpp_client_wrapper\flutter_engine.cc;C:\Users\Porya\Desktop\Todo\windows\flutter\ephemeral\cpp_client_wrapper\flutter_view_controller.cc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Porya\Desktop\Todo\build\windows\flutter\CMakeFiles\flutter_assemble</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='Profile|x64'"></Message>
@@ -152,8 +152,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">D:\Files\Todo-1\windows\flutter\ephemeral\flutter_windows.dll;D:\Files\Todo-1\windows\flutter\ephemeral\flutter_export.h;D:\Files\Todo-1\windows\flutter\ephemeral\flutter_windows.h;D:\Files\Todo-1\windows\flutter\ephemeral\flutter_messenger.h;D:\Files\Todo-1\windows\flutter\ephemeral\flutter_plugin_registrar.h;D:\Files\Todo-1\windows\flutter\ephemeral\flutter_texture_registrar.h;D:\Files\Todo-1\windows\flutter\ephemeral\cpp_client_wrapper\core_implementations.cc;D:\Files\Todo-1\windows\flutter\ephemeral\cpp_client_wrapper\standard_codec.cc;D:\Files\Todo-1\windows\flutter\ephemeral\cpp_client_wrapper\plugin_registrar.cc;D:\Files\Todo-1\windows\flutter\ephemeral\cpp_client_wrapper\flutter_engine.cc;D:\Files\Todo-1\windows\flutter\ephemeral\cpp_client_wrapper\flutter_view_controller.cc;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">D:\Files\Todo-1\build\windows\flutter\CMakeFiles\flutter_assemble</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">C:\Users\Porya\Desktop\Todo\windows\flutter\ephemeral\flutter_windows.dll;C:\Users\Porya\Desktop\Todo\windows\flutter\ephemeral\flutter_export.h;C:\Users\Porya\Desktop\Todo\windows\flutter\ephemeral\flutter_windows.h;C:\Users\Porya\Desktop\Todo\windows\flutter\ephemeral\flutter_messenger.h;C:\Users\Porya\Desktop\Todo\windows\flutter\ephemeral\flutter_plugin_registrar.h;C:\Users\Porya\Desktop\Todo\windows\flutter\ephemeral\flutter_texture_registrar.h;C:\Users\Porya\Desktop\Todo\windows\flutter\ephemeral\cpp_client_wrapper\core_implementations.cc;C:\Users\Porya\Desktop\Todo\windows\flutter\ephemeral\cpp_client_wrapper\standard_codec.cc;C:\Users\Porya\Desktop\Todo\windows\flutter\ephemeral\cpp_client_wrapper\plugin_registrar.cc;C:\Users\Porya\Desktop\Todo\windows\flutter\ephemeral\cpp_client_wrapper\flutter_engine.cc;C:\Users\Porya\Desktop\Todo\windows\flutter\ephemeral\cpp_client_wrapper\flutter_view_controller.cc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">C:\Users\Porya\Desktop\Todo\build\windows\flutter\CMakeFiles\flutter_assemble</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></Message>
@@ -164,18 +164,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Files\Todo-1\windows\flutter\ephemeral\flutter_windows.dll;D:\Files\Todo-1\windows\flutter\ephemeral\flutter_export.h;D:\Files\Todo-1\windows\flutter\ephemeral\flutter_windows.h;D:\Files\Todo-1\windows\flutter\ephemeral\flutter_messenger.h;D:\Files\Todo-1\windows\flutter\ephemeral\flutter_plugin_registrar.h;D:\Files\Todo-1\windows\flutter\ephemeral\flutter_texture_registrar.h;D:\Files\Todo-1\windows\flutter\ephemeral\cpp_client_wrapper\core_implementations.cc;D:\Files\Todo-1\windows\flutter\ephemeral\cpp_client_wrapper\standard_codec.cc;D:\Files\Todo-1\windows\flutter\ephemeral\cpp_client_wrapper\plugin_registrar.cc;D:\Files\Todo-1\windows\flutter\ephemeral\cpp_client_wrapper\flutter_engine.cc;D:\Files\Todo-1\windows\flutter\ephemeral\cpp_client_wrapper\flutter_view_controller.cc;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Files\Todo-1\build\windows\flutter\CMakeFiles\flutter_assemble</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Porya\Desktop\Todo\windows\flutter\ephemeral\flutter_windows.dll;C:\Users\Porya\Desktop\Todo\windows\flutter\ephemeral\flutter_export.h;C:\Users\Porya\Desktop\Todo\windows\flutter\ephemeral\flutter_windows.h;C:\Users\Porya\Desktop\Todo\windows\flutter\ephemeral\flutter_messenger.h;C:\Users\Porya\Desktop\Todo\windows\flutter\ephemeral\flutter_plugin_registrar.h;C:\Users\Porya\Desktop\Todo\windows\flutter\ephemeral\flutter_texture_registrar.h;C:\Users\Porya\Desktop\Todo\windows\flutter\ephemeral\cpp_client_wrapper\core_implementations.cc;C:\Users\Porya\Desktop\Todo\windows\flutter\ephemeral\cpp_client_wrapper\standard_codec.cc;C:\Users\Porya\Desktop\Todo\windows\flutter\ephemeral\cpp_client_wrapper\plugin_registrar.cc;C:\Users\Porya\Desktop\Todo\windows\flutter\ephemeral\cpp_client_wrapper\flutter_engine.cc;C:\Users\Porya\Desktop\Todo\windows\flutter\ephemeral\cpp_client_wrapper\flutter_view_controller.cc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Porya\Desktop\Todo\build\windows\flutter\CMakeFiles\flutter_assemble</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\Files\Todo-1\windows\flutter\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\Porya\Desktop\Todo\windows\flutter\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Files/Todo-1/windows/flutter/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Porya/Desktop/Todo/windows/flutter/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"D:\Program File\Vs2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/Files/Todo-1/windows -BD:/Files/Todo-1/build/windows --check-stamp-file D:/Files/Todo-1/build/windows/flutter/CMakeFiles/generate.stamp
+"D:\Program File\Vs2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/Porya/Desktop/Todo/windows -BC:/Users/Porya/Desktop/Todo/build/windows --check-stamp-file C:/Users/Porya/Desktop/Todo/build/windows/flutter/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -183,12 +183,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Files\Todo-1\windows\flutter\ephemeral\generated_config.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Files\Todo-1\build\windows\flutter\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Porya\Desktop\Todo\windows\flutter\ephemeral\generated_config.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Porya\Desktop\Todo\build\windows\flutter\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">Building Custom Rule D:/Files/Todo-1/windows/flutter/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">Building Custom Rule C:/Users/Porya/Desktop/Todo/windows/flutter/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">setlocal
-"D:\Program File\Vs2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/Files/Todo-1/windows -BD:/Files/Todo-1/build/windows --check-stamp-file D:/Files/Todo-1/build/windows/flutter/CMakeFiles/generate.stamp
+"D:\Program File\Vs2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/Porya/Desktop/Todo/windows -BC:/Users/Porya/Desktop/Todo/build/windows --check-stamp-file C:/Users/Porya/Desktop/Todo/build/windows/flutter/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -196,12 +196,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">D:\Files\Todo-1\windows\flutter\ephemeral\generated_config.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">D:\Files\Todo-1\build\windows\flutter\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">C:\Users\Porya\Desktop\Todo\windows\flutter\ephemeral\generated_config.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">C:\Users\Porya\Desktop\Todo\build\windows\flutter\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Files/Todo-1/windows/flutter/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Porya/Desktop/Todo/windows/flutter/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"D:\Program File\Vs2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/Files/Todo-1/windows -BD:/Files/Todo-1/build/windows --check-stamp-file D:/Files/Todo-1/build/windows/flutter/CMakeFiles/generate.stamp
+"D:\Program File\Vs2022\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/Porya/Desktop/Todo/windows -BC:/Users/Porya/Desktop/Todo/build/windows --check-stamp-file C:/Users/Porya/Desktop/Todo/build/windows/flutter/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -209,18 +209,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Files\Todo-1\windows\flutter\ephemeral\generated_config.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Files\Todo-1\build\windows\flutter\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Porya\Desktop\Todo\windows\flutter\ephemeral\generated_config.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Porya\Desktop\Todo\build\windows\flutter\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <None Include="D:\Files\Todo-1\build\windows\flutter\CMakeFiles\flutter_assemble">
+    <None Include="C:\Users\Porya\Desktop\Todo\build\windows\flutter\CMakeFiles\flutter_assemble">
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="D:\Files\Todo-1\build\windows\ZERO_CHECK.vcxproj">
-      <Project>{530F0273-F1E2-37B7-B5E2-A0156A728D5C}</Project>
+    <ProjectReference Include="C:\Users\Porya\Desktop\Todo\build\windows\ZERO_CHECK.vcxproj">
+      <Project>{BA0CBC87-E410-364C-88AA-D2A6E8F553A2}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

@@ -9,7 +9,8 @@ class AddTodoBody extends StatefulWidget {
   AddTodoBody({
     Key? key,
     required this.type,
-    required this.Index,required this.Text,
+    required this.Index,
+    required this.Text,
   }) : super(key: key);
   final String type;
   final int Index;
@@ -34,12 +35,17 @@ class _AddTodoBodyState extends State<AddTodoBody> {
             height: 10,
           ),
           TextField(
+            style: TextStyle(color: Colors.black),
             controller: controller,
-            decoration: InputDecoration(
-                border: OutlineInputBorder(
-                    borderRadius: BorderRadius.circular(10),
-                    borderSide: const BorderSide(width: 2, color: Colors.grey)),
-                labelText: 'Add Task Content'),
+            decoration: const InputDecoration(
+                filled: true,
+                fillColor: Color(0xFFF2F2F2),
+                focusedBorder: OutlineInputBorder(
+                  borderRadius: BorderRadius.all(Radius.circular(4)),
+                  borderSide: BorderSide(width: 1, color: Colors.blue),
+                ),
+                hintText: "Please enter what you want to do",
+                hintStyle: TextStyle(fontSize: 16, color: Color(0xFFB3B1B1))),
           ),
           const SizedBox(
             height: 10,
